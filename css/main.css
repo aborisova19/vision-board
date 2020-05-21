@@ -1,0 +1,63 @@
+body {
+    background: rgb(232, 232, 232) url("../img/background.png") no-repeat fixed border-box center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;    
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 1200px;
+    height: 850px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 430px 1fr;
+    box-sizing: border-box;
+    align-items: stretch;
+    justify-items: stretch;
+}
+
+.block {
+    padding: 25px 40px 0;
+    box-sizing: border-box;
+}
+
+.four, .five, .six {
+    padding-top: 50px;
+}
+
+.left {
+    text-align: left;   
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.light-bg {
+    background-color: #ffffff;
+}
+
+.dark-bg {
+   background-color: #3B3B3B;
+   font-size: 30px;
+   color: #ffffff;
+}
+
+.dark-bg span {
+    font-family: 'Permanent marker', cursive;
+}
+
+span.large-text {
+    font-size: 38px;
+    text-transform: initial;
+}
+
+span.highlight {
+    background-color: #FFF44F;
+    padding: 5px;
+}
